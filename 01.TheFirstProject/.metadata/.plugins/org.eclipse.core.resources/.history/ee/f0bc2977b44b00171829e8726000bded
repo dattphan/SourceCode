@@ -1,0 +1,66 @@
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import java.awt.Dimension;
+import javax.swing.SwingUtilities;
+import javax.swing.JButton;
+
+
+public class JframeFrontEnd extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					JframeFrontEnd frame = new JframeFrontEnd();
+					frame.setVisible(true);
+					frame.displayJFrame();
+					
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public JframeFrontEnd() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(36, 238, 50, 95);
+		contentPane.add(btnNewButton);
+		
+		
+	}
+	
+	static void displayJFrame()
+	  {
+	    // create our jframe as usual
+	    JFrame jframe = new JFrame("JFrame Size Example");
+	    jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+	    // set the jframe size and location, and make it visible
+	    jframe.setPreferredSize(new Dimension(400, 300));
+	    jframe.pack();
+	    jframe.setLocationRelativeTo(null);
+	    jframe.setVisible(true);
+	  }
+
+}

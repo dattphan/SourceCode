@@ -1,0 +1,5 @@
+
+public static class MutualFunctions {
+
+	static int i =0;
+}
