@@ -12,6 +12,7 @@ BEGIN:
 - $ git config --global user.email "Type your email"
 
 - $ git clone https://github.com/vihoang/SourceCode  --->( the import command. It will create a repository folder on your local computer.)
+If an error appears: fatal: unable to access 'https://github.com/vihoang/SourceCode': SSL certificate problem: self signed certificate in certificate chain --> type this commands: GIT_SSL_NO_VERIFY=true git clone https://github.com/vihoang/SourceCode
 
 5. Go to C drive --> users ---> choose the user is login then--> check whether the  folder named SourceCode exists
 ----------------------------------------------------------------------------------------------------------------------
