@@ -23,6 +23,7 @@ ONCE CREATING A NEW FILE & MAKING CHANGES ON ANY FILES IN THE REPOSITORY FOLDER
 ---> It's important, becasue if you don't add, then anything you changed is not pushed to server and not tracked.
 
 7. When you do some changes on any files in the repository folder and want to commit it, please open Git Bash and type:
+- cd c:/Users/user which you're login/SourceCode
 - $ git commit -m "Your comment for the reason of commit"
 
 8. Then you have to type: "$ git push origin master"  to push those changes to server (https://github.com/vihoang/SourceCode)
