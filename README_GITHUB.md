@@ -32,3 +32,4 @@ ONCE CREATING A NEW FILE & MAKING CHANGES ON ANY FILES IN THE REPOSITORY FOLDER
 10. Go to server (https://github.com/vihoang/SourceCode) to check the existation of your files. 
 
 11. edittttt
+12. 
