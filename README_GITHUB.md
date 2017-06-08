@@ -13,8 +13,6 @@ BEGIN:
 
 - $ git clone https://github.com/vihoang/SourceCode  --->( the import command. It will create a repository folder on your local computer.)
 
-If an error appears: fatal: unable to access 'https://github.com/vihoang/SourceCode': SSL certificate problem: self signed certificate in certificate chain --> type this commands: GIT_SSL_NO_VERIFY=true git clone https://github.com/vihoang/SourceCode
-
 5. Go to C drive --> users ---> choose the user is login then--> check whether the  folder named SourceCode exists
 ----------------------------------------------------------------------------------------------------------------------
 ONCE CREATING A NEW FILE & MAKING CHANGES ON ANY FILES IN THE REPOSITORY FOLDER
@@ -23,7 +21,8 @@ ONCE CREATING A NEW FILE & MAKING CHANGES ON ANY FILES IN THE REPOSITORY FOLDER
 ---> It's important, becasue if you don't add, then anything you changed is not pushed to server and not tracked.
 
 7. When you do some changes on any files in the repository folder and want to commit it, please open Git Bash and type:
-- cd c:/Users/user which you're login/SourceCode
+- $ git reset --mixed origin/master
+- $ git add .
 - $ git commit -m "Your comment for the reason of commit"
 
 8. Then you have to type: "$ git push origin master"  to push those changes to server (https://github.com/vihoang/SourceCode)
@@ -32,4 +31,4 @@ ONCE CREATING A NEW FILE & MAKING CHANGES ON ANY FILES IN THE REPOSITORY FOLDER
 
 10. Go to server (https://github.com/vihoang/SourceCode) to check the existation of your files. 
 
-
+11. edittttt
